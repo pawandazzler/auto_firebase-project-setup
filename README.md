@@ -10,27 +10,7 @@ Project is still in development phase, current this throws exception with Enable
 Tested on windows only
 
 ---------------------------------Console logs---------------------------------------------------------
-Microsoft Windows [Version 6.1.7601]
-Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
 
-(venv) C:\Users\Pawan\PycharmProjects\auto_firebase project setup>python SampleTestwithCfg.py
-firm-aviary-308417
-##################################################
-Handle_GCP InIt
-project_exists Init
-Project Already Exists
-get_service_key Init :  projects/firm-aviary-308417
-{'accounts': [{'name': 'projects/firm-aviary-308417/serviceAccounts/firm-aviary-308417@firm-aviary-308417.iam.gserviceaccount.com', 'projectId': 'firm-aviary-308417'
-, 'uniqueId': '108198411729407295371', 'email': 'firm-aviary-308417@firm-aviary-308417.iam.gserviceaccount.com', 'displayName': 'firm-aviary-308417', 'etag': 'MDEwMj
-E5MjA=', 'oauth2ClientId': '108198411729407295371'}]}
-service_account :  firm-aviary-308417@firm-aviary-308417.iam.gserviceaccount.com
-Updated property [core/project].
-
-set_project :  True
-getkey_cmd :  gcloud iam service-accounts keys create key.json --iam-account=firm-aviary-308417@firm-aviary-308417.iam.gserviceaccount.com
-created key [72683df20698a36f46216e74b1e9d0069fcabe3b] of type [json] as [key.json] for [firm-aviary-308417@firm-aviary-308417.iam.gserviceaccount.com]
-
-##################################################
 Handle_Firebase InIt
 add_FireBase_GCP Init
 <h1>Not Found</h1>
