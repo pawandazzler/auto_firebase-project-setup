@@ -1,0 +1,23 @@
+{
+  "gcp_project_body" : {
+      "name": "gcp firm-aviary-308417",
+      "projectId": "firm-aviary-308417"
+  },
+  "firebase_project_body" : {
+    "regionCode": "IN",
+    "timeZone": "Asia/Kolkata"
+  },
+  "configure_android_app" :
+  {
+    "packageName": "com.example.testdroid3"
+  },
+  "configure_ios_app" :
+  {
+      "bundleId": "com.example.testios1"
+  },
+  "url_firebase": "https://firebase.googleapis.com/v1beta1/%s:addFirebase",
+  "configure_android_url": "https://firebase.googleapis.com/v1beta1/projects/%s/androidApps",
+  "downloadandroidurl": "https://firebase.googleapis.com/v1beta1/projects/%s/androidApps/%s/config",
+  "configure_ios_url": "https://firebase.googleapis.com/v1beta1/projects/%s/iosApps",
+  "downloadiosurl": "https://firebase.googleapis.com/v1beta1/projects/%s/iosApps/%s/config"
+}
