@@ -1,0 +1,1 @@
+# auto_firebase-project-setup
